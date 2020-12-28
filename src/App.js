@@ -1,11 +1,18 @@
 import React from "react";
+import Nav from "./Nav";
+import MovieList from "./MovieList";
+import AddMovie from "./AddMovie";
+import { MovieProvider } from "./MovieContext";
 import "./styles.css";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
+    <MovieProvider>
+      <div className="App">
+        <Nav />
+        <AddMovie />
+        <MovieList />
+      </div>
+    </MovieProvider>
   );
 }

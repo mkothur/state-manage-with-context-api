@@ -2,3 +2,17 @@
   font-family: sans-serif;
   text-align: center;
 }
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+form {
+  padding: 20px;
+}
+input {
+  margin-top: 10px;
+}
