@@ -1,2 +1,3 @@
 # state-manage-with-context-api
-Created with CodeSandbox
+
+Understanding of Context-api example
