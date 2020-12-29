@@ -16,3 +16,14 @@ form {
 input {
   margin-top: 10px;
 }
+#page-numbers {
+  list-style: none;
+  display: flex;
+}
+
+#page-numbers > li {
+  margin-right: 0.3em;
+  color: grey;
+  user-select: none;
+  cursor: pointer;
+}
